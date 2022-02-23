@@ -1,0 +1,55 @@
+{
+  "name": "jest-hud-reporter",
+  "version": "0.0.0",
+  "private": false,
+  "description": "A jest reporter that shows test running stats using the HUD macOS app.",
+  "author": {
+    "name": "Nando Vieira",
+    "email": "me@fnando.com",
+    "url": "https://nandovieira.com/"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist/**/*",
+    "CHANGELOG.md",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "homepage": "https://github.com/fnando/jest-hud-reporter",
+  "license": "MIT",
+  "bugs": "https://github.com/fnando/jest-hud-reporter/issues",
+  "repository": "https://github.com/fnando/jest-hud-reporter.git",
+  "scripts": {
+    "test": "jest --watch",
+    "test:ci": "jest && yarn lint",
+    "lint": "yarn lint:ts && yarn lint:eslint",
+    "lint:ts": "tsc --noEmit",
+    "lint:eslint": "eslint src --max-warnings 0",
+    "build": "rm -rf dist && tsc"
+  },
+  "dependencies": {
+    "@jest/types": "*",
+    "@jest/reporters": "*",
+    "@jest/test-result": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@fnando/codestyle": "^0.0.13",
+    "@fnando/eslint-config-codestyle": "^0.0.10",
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^8.9.0",
+    "jest": "^27.5.1",
+    "jest-filename-transform": "^0.1.0",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.1.3",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

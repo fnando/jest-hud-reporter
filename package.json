@@ -1,6 +1,6 @@
 {
   "name": "jest-hud-reporter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": false,
   "description": "A jest reporter that shows test running stats using the HUD macOS app.",
   "author": {

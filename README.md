@@ -1,6 +1,5 @@
 # jest-hud-reporter
 
-[![Tests](https://github.com/fnando/jest-hud-reporter/workflows/js-tests/badge.svg)](https://github.com/fnando/jest-hud-reporter)
 [![NPM](https://img.shields.io/npm/v/jest-hud-reporter.svg)](https://npmjs.org/package/jest-hud-reporter)
 [![NPM](https://img.shields.io/npm/dt/jest-hud-reporter.svg)](https://npmjs.org/package/jest-hud-reporter)
 [![MIT License](https://img.shields.io/:License-MIT-blue.svg)](https://tldrlegal.com/license/mit-license)

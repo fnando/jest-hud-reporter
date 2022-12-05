@@ -37,7 +37,7 @@
     "@babel/preset-env": "^7.16.11",
     "@fnando/codestyle": "^0.0.13",
     "@fnando/eslint-config-codestyle": "^0.0.10",
-    "@types/jest": "^27.4.1",
+    "@types/jest": "^29.2.4",
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
     "babel-loader": "^8.2.3",
